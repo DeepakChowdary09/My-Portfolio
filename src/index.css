@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light mode gradient for sections */
+.section {
+  background: linear-gradient(to right, #38b2ac, #805ad5, #4299e1); /* Light mode gradient */
+  transition: background 0.5s ease; /* Smooth transition */
+}
+
+/* Dark mode gradient for sections */
+body.dark-mode .section {
+  background: linear-gradient(to right, #1a202c, #2d3748, #4a5568); /* Dark mode gradient */
+}
+
+/* General body background */
+body {
+  transition: background 0.5s ease; /* Smooth transition for body background */
+  background: linear-gradient(to right, #38b2ac, #805ad5, #4299e1); /* Light mode gradient */
+}
+
+body.dark-mode {
+  background: linear-gradient(to right, #1a202c, #2d3748, #4a5568); /* Dark mode background */
+}
+
+/* Text color for light mode */
+body {
+  color: #2d3748; /* Dark text for light mode */
+}
+
+/* Text color for dark mode */
+body.dark-mode {
+  color: #edf2f4; /* Light text for dark mode */
+}
+
+/* Optional: Keep specific elements with adjusted colors */
+h1, h2, h3, p {
+  transition: color 0.5s ease; /* Smooth transition for text color */
+}
+
+.cursor-light {
+  position: absolute;
+  width: 150px; /* Width of the glow area, adjust as needed */
+  height: 150px; /* Height of the glow area, adjust as needed */
+  border-radius: 50%; /* Make it circular */
+  transition: transform 0.2s ease; /* Smooth transitions for position */
+  transform: translate(-50%, -50%); /* Center the glow around the cursor position */
+  box-shadow: 
+    0 0 30px 15px rgba(255, 0, 150, 0.5), /* Inner glow */
+    0 0 60px 30px rgba(0, 204, 255, 0.3); /* Outer glow */
+  background: transparent; /* Fully transparent */
+}
+
+/* Adjust glow color based on mode */
+body.dark-mode .cursor-light {
+  box-shadow: 
+    0 0 30px 15px rgba(255, 255, 255, 0.4), /* White glow effect */
+    0 0 60px 30px rgba(200, 200, 200, 0.2); /* Softer outer glow */
+  background: transparent; /* Keep background transparent */
+}
