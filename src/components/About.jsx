@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import PropTypes from 'prop-types';
 
 const About = ({ darkMode }) => {
   const [activeTab, setActiveTab] = useState('skills');
@@ -112,3 +113,7 @@ const About = ({ darkMode }) => {
 };
 
 export default About;
+
+About.propTypes = {
+  darkMode: PropTypes.bool.isRequired,
+};

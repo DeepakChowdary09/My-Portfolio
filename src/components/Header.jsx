@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
+import PropTypes from 'prop-types';
 
 const Header = ({ darkMode }) => {
   const [scrolled, setScrolled] = useState(false);
@@ -45,3 +46,7 @@ const Header = ({ darkMode }) => {
 };
 
 export default Header;
+
+Header.propTypes = {
+  darkMode: PropTypes.bool.isRequired,
+};

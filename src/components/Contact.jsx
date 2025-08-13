@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import PropTypes from 'prop-types';
 
 const Contact = ({ darkMode }) => {
   const [formData, setFormData] = useState({
@@ -111,3 +112,7 @@ const Contact = ({ darkMode }) => {
 };
 
 export default Contact;
+
+Contact.propTypes = {
+  darkMode: PropTypes.bool.isRequired,
+};

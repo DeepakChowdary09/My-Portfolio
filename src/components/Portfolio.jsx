@@ -1,4 +1,5 @@
-import React from 'react';
+
+import PropTypes from 'prop-types';
 
 const projects = [
   { title: 'Project 1', description: 'A cool project using React. It showcases a dynamic user interface and responsive design.', link: '#' },
@@ -55,3 +56,7 @@ const Portfolio = ({ darkMode }) => {
 };
 
 export default Portfolio;
+
+Portfolio.propTypes = {
+  darkMode: PropTypes.bool.isRequired,
+};
