@@ -17,7 +17,7 @@ const projects = [
     title: "AnndataKart",
     description:
       "AnndataKart is an agriculture-themed e-commerce platform built with the MERN stack. Users can browse products, add to cart, and complete purchases in real-time. Features include responsive UI, interactive cart updates, and backend integration for a seamless shopping experience.",
-    link: "#", // <-- Replace with your project link
+    link: "https://anndatakart.vercel.app", // <-- Replace with your project link
   },
 ];
 
