@@ -8,16 +8,16 @@ const projects = [
     link: "https://crafted-path-qg6h-qqro4q06f-deepakchowdary09s-projects.vercel.app", // <-- Replace with your project link
   },
   {
-    title: "CraftedPath",
-    description:
-      "CraftedPath is an AI-assisted Job Tracker and preparation platform built with Next.js. It helps users track applications, create tailored resumes, generate cover letters, and prepare for interviews efficiently. Modern UI, intelligent insights, and structured workflow make job hunting smarter and faster.",
-    link: "#", // <-- Replace with your project link
-  },
-  {
     title: "AnndataKart",
     description:
       "AnndataKart is an agriculture-themed e-commerce platform built with the MERN stack. Users can browse products, add to cart, and complete purchases in real-time. Features include responsive UI, interactive cart updates, and backend integration for a seamless shopping experience.",
     link: "https://anndatakart.vercel.app", // <-- Replace with your project link
+  },
+  {
+    title: "CraftedPath",
+    description:
+      "CraftedPath is an AI-assisted Job Tracker and preparation platform built with Next.js. It helps users track applications, create tailored resumes, generate cover letters, and prepare for interviews efficiently. Modern UI, intelligent insights, and structured workflow make job hunting smarter and faster.",
+    link: "#", // <-- Replace with your project link
   },
 ];
 
