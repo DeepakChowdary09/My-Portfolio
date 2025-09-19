@@ -5,7 +5,7 @@ const projects = [
     title: "AI-Powered Todo Application",
     description:
       "AI-Powered Todo Application is a modern React app with AI-driven task suggestions and a chatbot for insights. It features real-time task management, a Pomodoro timer, and a responsive UI built with Tailwind CSS. Powered by PostgreSQL and Prisma ORM with secure authentication, it helps users stay organized and productive.",
-    link: "#", // <-- Replace with your project link
+    link: "https://crafted-path-qg6h-qqro4q06f-deepakchowdary09s-projects.vercel.app", // <-- Replace with your project link
   },
   {
     title: "CraftedPath",
