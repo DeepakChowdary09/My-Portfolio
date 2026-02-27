@@ -20,6 +20,12 @@ const projects = [
       "AI-assisted Job Tracker built with Next.js. Tracks applications, generates tailored resumes + cover letters, and helps users prep for interviews with smart insights.",
     link: "#",
   },
+  {
+    title: "SaveFood_Simulation",
+    description:
+      "Real-time logistics simulator built with Next.js and Go. Orchestrates autonomous food rescue dispatch, visualizes live fleet telemetry, and monitors system latency.",
+    link: "https://savefood-deepak.vercel.app",
+  },
 ];
 
 const Portfolio = ({ darkMode }) => {

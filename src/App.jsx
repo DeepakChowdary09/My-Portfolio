@@ -1,7 +1,7 @@
 import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useEffect, useState } from "react";
-import { Toaster } from "react-hot-toast"; // 👈 import Toaster
+import { Toaster } from "react-hot-toast";
 
 import About from "./components/About";
 import Contact from "./components/Contact";
@@ -38,6 +38,7 @@ const App = () => {
     <div className="min-h-screen relative">
       <Header darkMode={darkMode} />
 
+      {/* ✅ Single Dark Mode Toggle */}
       <div className="fixed top-4 right-4 z-50">
         <button
           onClick={toggleTheme}
@@ -65,7 +66,7 @@ const App = () => {
       <Contact darkMode={darkMode} />
       <Footer darkMode={darkMode} />
 
-      {/* 👇 Toast Container goes here */}
+      {/* Toasts */}
       <Toaster position="top-center" reverseOrder={false} />
     </div>
   );

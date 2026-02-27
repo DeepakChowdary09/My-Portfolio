@@ -1,4 +1,5 @@
-import { Moon, Sun } from "lucide-react";
+import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import PropTypes from "prop-types";
 import { useEffect, useState } from "react";
 
@@ -31,8 +32,8 @@ const Header = ({ darkMode, toggleDarkMode }) => {
           Welcome to My Portfolio
         </h1>
 
-        {/* Navigation + Buttons */}
-        <div className="flex flex-col sm:flex-row items-center sm:space-x-6 mt-4 sm:mt-0">
+        {/* Navigation + Dark Mode Toggle */}
+        <div className="flex items-center space-x-6 mt-4 sm:mt-0">
           <nav>
             <ul className="flex space-x-6 text-lg">
               {["About", "Services", "Projects", "Contact"].map(
@@ -54,16 +55,20 @@ const Header = ({ darkMode, toggleDarkMode }) => {
             </ul>
           </nav>
 
-          {/* Dark Mode Toggle */}
+          {/* ✅ Dark Mode Toggle */}
           <button
             onClick={toggleDarkMode}
-            className="ml-6 p-2 rounded-full transition-all duration-300 hover:scale-110"
-            aria-label="Toggle Dark Mode"
+            className={`p-2 rounded-full transition-all duration-300 hover:scale-110 ${
+              darkMode
+                ? "bg-gray-800 text-yellow-400 hover:bg-gray-700"
+                : "bg-white text-gray-800 shadow-lg hover:bg-gray-100"
+            }`}
+            title={darkMode ? "Switch to Light Mode" : "Switch to Dark Mode"}
           >
             {darkMode ? (
-              <Sun className="w-6 h-6 text-yellow-400" />
+              <FontAwesomeIcon icon={faSun} className="text-xl" />
             ) : (
-              <Moon className="w-6 h-6 text-gray-800" />
+              <FontAwesomeIcon icon={faMoon} className="text-xl" />
             )}
           </button>
         </div>
