@@ -2,7 +2,7 @@
 
 This repository contains all my personal projects built during my learning journey and free time.
 
-Currently pushing: **Personal portfolio Project** 🍽️ (React + Vite setup)
+Currently pushing: **Personal portfolio Project** 🍽️ (React + Vite setup + Clerk Auth)
 
 ---
 
