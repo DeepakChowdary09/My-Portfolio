@@ -1,6 +1,6 @@
-# My-Personal-Projects
+# My-Personal-Portfolio
 
-This repository contains all my personal projects built during my learning journey and free time.
+This repository contains  my personal portfolio  to showcase what i built during my learning journey and free time.
 
 Currently pushing: **Personal portfolio Project** 🍽️ (React + Vite setup + Clerk Auth)
 
