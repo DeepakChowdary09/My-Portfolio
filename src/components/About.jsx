@@ -67,7 +67,7 @@ const About = ({ darkMode }) => {
                   <span className="font-bold text-[#FF6B6B]">
                     Web Development
                   </span>
-                  <br /> Designing websites using React, Node.js, and MongoDB
+                  <br /> Designing websites using React, Node.js, and MongoDB.
                 </li>
                 <li>
                   <span className="font-bold text-[#FF6B6B]">
