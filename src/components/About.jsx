@@ -35,7 +35,7 @@ const About = ({ darkMode }) => {
             darkMode ? "text-gray-300" : "text-gray-700"
           }`}
         >
-          🚀 Full Stack Engineer | Passionate about crafting seamless web
+           Full Stack Engineer | Passionate about crafting seamless web
           experiences and building scalable applications.
         </p>
 
