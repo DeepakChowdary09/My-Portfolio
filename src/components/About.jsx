@@ -36,7 +36,7 @@ const About = ({ darkMode }) => {
           }`}
         >
            Full Stack Engineer | Passionate about crafting seamless web
-          experiences and building scalable applications
+          experiences and building scalable applications.
         </p>
 
         {/* Tabs */}
